@@ -1,0 +1,7 @@
+services:
+  php-nginx:
+      image: trafex/php-nginx
+      volumes:
+        - .:/var/www/html
+      ports:
+        - "80:8080"
